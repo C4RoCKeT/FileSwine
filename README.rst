@@ -8,6 +8,7 @@ It just might, though!
 Installation
 =====
 
+Drop the files into your desired webfolder (example: /var/www). Also checkout the .htaccess
 Create the database according to the /db/db.sql file. (just import it)
 Change the database information in /model/class.database.model.php to match your database.
 

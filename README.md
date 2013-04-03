@@ -1,4 +1,0 @@
-FileSwine
-=========
-
-A LAN Indexer
