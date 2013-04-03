@@ -17,5 +17,5 @@ I suggest running it from the commandline the first time;
 
     $ sudo php /var/www/cronjob/crawler.php
     
-Running the crawler from the commandline will give you some visual feedback and will also show any error messages if there are any. (There will probably be some
+Running the crawler from the commandline will give you some visual feedback and will also show error messages if there are any. (There will probably be some
 application missing required for the crawler.)
