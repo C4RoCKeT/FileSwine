@@ -1,0 +1,12 @@
+ErrorDocument 404 /index.php?action=404
+
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteBase /
+
+RewriteRule ^cronjob/?$ / [R=301,NC,QSA]
+RewriteRule ^advanced/?$ /index.php?action=advanced [NC,QSA]
+RewriteRule ^search/?$ /index.php?action=search [NC,QSA]
+RewriteRule ^shares/?$ /index.php?action=shares [NC,QSA]
+RewriteRule ^dashboard/?$ /index.php?action=dashboard [NC,QSA]
