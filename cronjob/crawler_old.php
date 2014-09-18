@@ -4,7 +4,7 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 $timestamp = date('Y-m-d H:i:s');
-$mysqli = new mysqli('localhost', 'root', 'UBsxiWL4', 'fileswine');
+$mysqli = new mysqli('localhost', 'root', 'password', 'fileswine');
 $mysqli->query('TRUNCATE `item`');
 $mysqli->query('TRUNCATE `path`');
 $mysqli->query('TRUNCATE `share`');
