@@ -1,6 +1,6 @@
 <?php
 
-$mysqli = new mysqli('localhost', 'root', 'UBsxiWL4', 'fileswine');
+$mysqli = new mysqli('localhost', 'root', 'password', 'fileswine');
 $result = $mysqli->query('SELECT `ip` FROM `share`');
 $ips = '';
 $last_seen = date('Y-m-d H:i:s');
